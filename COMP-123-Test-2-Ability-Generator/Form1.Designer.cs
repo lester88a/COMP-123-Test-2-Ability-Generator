@@ -212,6 +212,7 @@
             this.RollButton.TabIndex = 1;
             this.RollButton.Text = "Roll";
             this.RollButton.UseVisualStyleBackColor = true;
+            this.RollButton.Click += new System.EventHandler(this.RollButton_Click);
             // 
             // AbilityForm
             // 
